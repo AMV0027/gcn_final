@@ -1,0 +1,115 @@
+.reactMarkDown {
+  color: #e5e7eb;
+  line-height: 1.5;
+}
+
+.reactMarkDown h1 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #f3f4f6;
+}
+
+.reactMarkDown h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+  color: #e5e7eb;
+}
+
+.reactMarkDown h3 {
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  color: #d1d5db;
+}
+
+.reactMarkDown p {
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  white-space: pre-wrap;
+}
+
+.reactMarkDown ul {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  list-style: disc outside none;
+}
+
+.reactMarkDown ul li {
+  margin-left: 2em;
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+.reactMarkDown ol {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  list-style: decimal outside none;
+}
+
+.reactMarkDown ol li {
+  margin-left: 2em;
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+.reactMarkDown a {
+  text-decoration: underline;
+}
+
+.reactMarkDown a:hover {
+  text-decoration: underline;
+}
+
+.reactMarkDown code:not(pre code) {
+  background-color: #1f2937;
+  padding: 0.2em 0.4em;
+  border-radius: 0.25rem;
+  font-family: monospace;
+  font-size: 0.875em;
+}
+
+.reactMarkDown pre {
+  background-color: #1f2937;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 0.5rem;
+  overflow-x: auto;
+}
+
+.reactMarkDown blockquote {
+  border-left: 4px solid #4b5563;
+  padding-left: 1rem;
+  margin: 1rem 0;
+  font-style: italic;
+  color: #9ca3af;
+}
+/* Table styling */
+.reactMarkDown table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+  background-color: #00000000; /* Table background color */
+}
+
+.reactMarkDown th,
+.reactMarkDown td {
+  padding: 8px 12px;
+  text-align: left;
+  border: 1px solid #ffffff; /* Border for cells */
+}
+
+.reactMarkDown th {
+  background-color: #ffffff21; /* Header background */
+  color: #f3f4f6; /* Header text color */
+  font-weight: 600;
+}
+
+.reactMarkDown td {
+  color: #e5e7eb; /* Table cell text color */
+}
